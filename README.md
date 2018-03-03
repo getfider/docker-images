@@ -1,4 +1,4 @@
-# CircleCI Fider Builder Image
+# Fider Image Builder for CircleCI
 
 A simple Docker image used by CircleCI to build Fider.
 
