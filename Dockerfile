@@ -1,4 +1,4 @@
-FROM golang:1.10
+FROM golang:1.10.1
 
 # Node.js
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
