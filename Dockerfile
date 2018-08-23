@@ -10,7 +10,7 @@ RUN curl -sL https://deb.nodesource.com/setup_$NODE_VER | bash -
 RUN apt-get update
 
 # Node.js
-RUN apt-get install -y nodejs postgresql-client
+RUN apt-get install -y nodejs postgresql-client netcat
 RUN npm install -g npm@$NPM_VER
 
 # godotenv
