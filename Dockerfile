@@ -1,4 +1,4 @@
-FROM golang:1.10.3
+FROM golang:1.10.4
 
 #Versions
 ENV DOCKER_CLI_VER 17.12.1-ce
@@ -15,6 +15,7 @@ RUN npm install -g npm@$NPM_VER
 
 # godotenv
 RUN go get github.com/joho/godotenv/cmd/godotenv
+RUN go get github.com/magefile/mage
 
 # Docker CLI
 RUN curl -L -o /tmp/docker-$DOCKER_CLI_VER.tgz https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_CLI_VER.tgz \
