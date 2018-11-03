@@ -1,7 +1,7 @@
-FROM golang:1.11.1
+FROM golang:1.11.2
 
 #Versions
-ENV DOCKER_CLI_VER 17.12.1-ce
+ENV DOCKER_CLI_VER 18.06.1-ce
 ENV NODE_VER 10.x
 ENV NPM_VER 6
 
