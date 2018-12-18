@@ -1,4 +1,4 @@
-FROM golang:1.11.2
+FROM golang:1.11.4
 
 #Versions
 ENV DOCKER_CLI_VER 18.06.1-ce
