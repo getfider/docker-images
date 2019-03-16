@@ -6,7 +6,7 @@ https://circleci.com/docs/2.0/custom-images/
 
 ## Publish steps
 
-Current Version: 0.0.17
+Current Version: 0.0.18
 
 - docker build -t getfider/circleci:&lt;version&gt; .
 - docker push getfider/circleci:&lt;version&gt;
