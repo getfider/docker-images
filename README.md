@@ -1,8 +1,8 @@
-# Fider Image Builder for CircleCI
+# Miscellaneous Docker Images used by Fider Project
 
-A simple Docker image used by CircleCI to build Fider.
-
-https://circleci.com/docs/2.0/custom-images/
+- `getfider/circleci` used by Circle CI (deprecated)
+- `getfider/githubci` used by GitHub Actions
+- `getfider/minio` used by GitHub Actions
 
 ## Publish steps
 
