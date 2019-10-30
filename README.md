@@ -1,6 +1,5 @@
 # Miscellaneous Docker Images used by Fider Project
 
-- `getfider/circleci` used by Circle CI (deprecated)
 - `getfider/githubci` used by GitHub Actions
 - `getfider/minio` used by GitHub Actions
 
