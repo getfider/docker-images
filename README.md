@@ -6,11 +6,6 @@
 
 ## Publish steps
 
-Current `getfider/circleci` Version: 0.0.21
-
-- docker build -f circleci.Dockerfile -t getfider/circleci:&lt;version&gt; .
-- docker push getfider/circleci:&lt;version&gt;
-
 Current `getfider/githubci` Version: 0.0.1
 
 - docker build -f githubci.Dockerfile -t getfider/githubci:&lt;version&gt; .
