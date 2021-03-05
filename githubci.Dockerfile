@@ -1,4 +1,4 @@
-FROM golang:1.13.3
+FROM golang:1.16.0
 
 #Versions
 ENV DOCKER_CLI_VER 19.03.4
@@ -17,7 +17,7 @@ RUN npm install -g npm@$NPM_VER
 # CLI Tools
 RUN go get github.com/joho/godotenv/cmd/godotenv
 RUN go get github.com/magefile/mage
-RUN go get github.com/cosmtrek/air/cmd/air
+RUN go get github.com/cosmtrek/air
 RUN curl -sfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh| sh -s -- -b $(go env GOPATH)/bin $GOLANG_LINT_VER
 
 # Docker CLI
