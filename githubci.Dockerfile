@@ -1,10 +1,10 @@
 FROM golang:1.16.0
 
 #Versions
-ENV DOCKER_CLI_VER 19.03.4
-ENV NODE_VER 12.x
-ENV NPM_VER 6
-ENV GOLANG_LINT_VER v1.21.0
+ENV DOCKER_CLI_VER 20.10.5
+ENV NODE_VER 14.x
+ENV NPM_VER 7
+ENV GOLANG_LINT_VER v1.38.0
 
 # Setup
 RUN curl -sL https://deb.nodesource.com/setup_$NODE_VER | bash -

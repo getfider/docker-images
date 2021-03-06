@@ -5,7 +5,7 @@
 
 ## Publish steps
 
-Current `getfider/githubci` Version: 0.0.3
+Current `getfider/githubci` Version: 0.0.4
 
 - docker build -f githubci.Dockerfile -t getfider/githubci:&lt;version&gt; .
 - docker push getfider/githubci:&lt;version&gt;
