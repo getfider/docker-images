@@ -1,4 +1,4 @@
-FROM golang:1.16.0
+FROM golang:1.16.2-buster
 
 #Versions
 ENV DOCKER_CLI_VER 20.10.5
